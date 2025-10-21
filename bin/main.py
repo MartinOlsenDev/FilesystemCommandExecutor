@@ -1,5 +1,5 @@
-import interpreter_terminal_io as itio
-import interpreter_actions as ia
+from .utils import interpreter_actions as ia
+from .utils import interpreter_terminal_io as itio
 from typing_extensions import assert_never
 
 def main():
